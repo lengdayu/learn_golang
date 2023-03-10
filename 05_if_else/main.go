@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
-	var score = 35
+	var score = math.Round(100)
 	if score >= 90 {
 		fmt.Println("A")
 	} else if score >= 60 {
